@@ -9,31 +9,56 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@600&family=Montserrat:wght@100;700&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
     <style>
-        h1 {
-            font-family: 'Montserrat Alternates', sans-serif;
-        }
         body {
             font-family: Arial, Helvetica, sans-serif;
             background-color: #CAF0F8;
+            color: #0077B6;
+        }
+        h1 {
+            font-family: 'Montserrat Alternates', sans-serif;
+            color: #03045E;
+        }
+        h2 {
+            color: #023E8A;
+        }
+        h3 {
+            color: #0077B6;
+        }
+        p {
+            text-align: justify;
+            font-weight: 600;
+            line-height: 150%;
         }
         #resume {
             font-family: 'Ubuntu', sans-serif;
             /* font-weight: 600; */
         }
-        .border{
+        .border {
             border-radius: 100px;
+        }
+        .featured-tags {
+            font-family: 'Courier New', Courier, monospace;
+            background-color: #023E8A;
+            color: #fff;
+            padding: 1px;
+        }
+        .strong-labels {
+            font-family: 'Courier New', Courier, monospace;
+            font-weight: 700;
+            background-color: #03045E;
+            color: #fff;
+            padding: 1px;
         }
     </style>
 </head>
 <body>
     <!-- Informações Básicas -->
-    <!-- Usar link interno para cumprir um dos requisitos -->
     <img class="border" src="./Imagens/Tiago-Perfil.jpeg" alt="Foto de perfil de Tiago Ribeiro de Barros" width="200px"> 
     <h1 id="perfil"><strong>Tiago Ribeiro de Barros</strong></h1>
 
-    <p id="resume"><em>Muito prazer, eu sou o Tiago!</em> Sou estudante de desenvolvimento web na <strong>Trybe</strong> e fundador da <strong>Parceiros de Negócio</strong>.
-    <br>Nasci e moro atualmente na cidade de Caxias do Sul, no estado do Rio Grande do Sul, mas já morei no estado de Minas Gerais e também na Suíça.
-    <br>Sou apaixonado por <strong>tecnologia, educação e cultura</strong>! Entre em <em><a href="mailto:tiagordebarros@gmail.com" target="_blank">contato</a></em>! Será um prazer conhecê-lo(a).</p>
+    <p id="resume"><em>Muito prazer, eu sou o <u class="featured-tags">Tiago</u>!</em> Sou estudante de desenvolvimento web na <strong class="strong-labels">Trybe</strong> e fundador da <strong class="strong-labels">Parceiros de Negócio</strong>.
+    <br>Nasci e moro atualmente na cidade de <u class="featured-tags">Caxias do Sul</u>, no estado do <u class="featured-tags">Rio Grande do Sul</u>, mas já morei no estado de Minas Gerais e também na Suíça.
+    <br>Sou apaixonado por <strong class="featured-tags">tecnologia, educação e cultura</strong>! Entre em <em><a href="mailto:tiagordebarros@gmail.com" target="_blank">contato</a></em>! Será um prazer conhecê-lo(a).</p>
     
     <h2>Informações Básicas</h2>
     <!-- Hard Skills -->
@@ -66,7 +91,7 @@
     <ol>
         <li><a href="#perfil" target="_self">Perfil</a></li>
         <li><a href="#hard-skills" target="_self">Hard Skills</a></li>
-        <li><a href="#soft-skills" target="self">Soft Skills</a></li>
+        <li><a href="#soft-skills" target="_self">Soft Skills</a></li>
         <li><a href="#recomendo" target="_self">Recomendo</a></li>
     </ol>
 </body>

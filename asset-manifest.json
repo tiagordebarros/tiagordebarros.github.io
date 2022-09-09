@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.bb40a546.css",
+    "main.js": "/static/js/main.0d94f09a.js",
+    "static/js/787.a8a21f2e.chunk.js": "/static/js/787.a8a21f2e.chunk.js",
+    "static/media/tiago-profile.png": "/static/media/tiago-profile.a4234d4dbdf18a656bac.png",
+    "static/media/cv.pdf": "/static/media/cv.5a11a55ea41295390091.pdf",
+    "index.html": "/index.html",
+    "main.bb40a546.css.map": "/static/css/main.bb40a546.css.map",
+    "main.0d94f09a.js.map": "/static/js/main.0d94f09a.js.map",
+    "787.a8a21f2e.chunk.js.map": "/static/js/787.a8a21f2e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bb40a546.css",
+    "static/js/main.0d94f09a.js"
+  ]
+}
